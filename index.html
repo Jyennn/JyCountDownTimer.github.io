@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>NewYearCountdown| by Jy </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./stylesheet/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper" id="app">
+        <div class="container text-center">
+            <div class="col-md-12">
+                <h1 id="header" class="">Countdown Till <br>2024</h1>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="clock">
+                    <div class="well top-section">
+                        <div id="days" class="num">{{ days }}</div>
+                    </div>
+                    <div class="well bottom-section">
+                        <div id="days-text" class="text">Days</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="clock">
+                    <div class="well top-section">
+                        <div id="hours" class="num">{{ hours }}</div>
+                    </div>
+                    <div class="well bottom-section">
+                        <div id="hours-text" class="text">Hours</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="clock">
+                    <div class="well top-section">
+                        <div id="mins" class="num">{{ minutes }}</div>
+                    </div>
+                    <div class="well bottom-section">
+                        <div id="mins-text" class="text">Minutes</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="clock">
+                    <div class="well top-section">
+                        <div id="secs" class="num">{{ seconds }}</div>
+                    </div>
+                    <div class="well bottom-section">
+                        <div id="secs-text" class="text">Seconds</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS, then Vue.js -->
+<script src="https://cdn.jsdelivr.net/npm/vue@3.2.12/dist/vue.global.prod.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="./app.js"></script>
+
+</html>
